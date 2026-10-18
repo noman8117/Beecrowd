@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class BEE_1074 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        for(int i=0; i<n; i++){
+            int x = sc.nextInt();
+            if(x==0){
+                System.out.println("NULL");
+            }
+            else{
+                if (x % 2 == 0) {
+                    System.out.print("EVEN ");
+                } else {
+                    System.out.print("ODD ");
+                }
+                if (x > 0) {
+                    System.out.println("POSITIVE");
+                } else {
+                    System.out.println("NEGATIVE");
+                } 
+            }
+        }
+    }
+}
